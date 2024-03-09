@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Portfolio</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+		type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+
+		<h1>Brendon Jennett</h1>
+		
+		<nav>
+			<ul id="menu">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="home">
+		<!-- <img src="Photo-Of-Me.jpg" alt="Picture of Brendon Jennett"> -->
+		<div class="item" id="introp">
+			<h2 class="item start" id="intro">
+				Introduction
+			</h2>
+			<p id="greeting", class="item">
+				Hey, I'm Brendon, I currently work at the Hard Rock of Tampa as a Slot Technician. Although it is a great job with many benefits I would like to broaden my IT skills.
+			</p>
+		</div>
+	</section>
+	<hr>
+	<h2 id="projects" class="item start">My Top 3 Projects</h2>
+	<section class="projectSection">
+		
+		<div class="project">
+			<a class="item" href="https://github.com/vxp101/Microsoft_Excel_Survival">Microsoft Excel Survival Game</a>
+			<div class="item">
+				<a href="https://github.com/vxp101/Microsoft_Excel_Survival">*Github Repo</a>
+			</div>
+			<p class="item">Description: <br> This is my original Portfolio <br>
+				<br> I used: <br> CSS and HTML inside Visual Studio Code.</p>
+			<div class="item">
+				Pictures:
+			</div>
+			<!--consider making a few folders that have many photos of project-->
+			<img src="" alt="">
+		</div>
+
+		<div class="project">
+			<a class="item" href="https://github.com/vxp101/ContextMenuSendToEmail/">Slot Machine Quiz Game</a>
+			<div class="item">
+				<a href="">*Github Repo</a>
+			</div>
+			<p class="item">Description: <br> I made this so I could easily send <br> multiple files to my email <br>
+				<br> I used: <br> Python with IDLE IDE</p>
+			<div class="item">
+				Pictures:
+			</div>
+			<img alt="Send To Email">
+		</div>
+
+		<div>
+			<div class="project">
+				<a class="item" href="https://thinkful-ei-shark.github.io/brendon-bookmarks-app/">Email Multiple Files</a>
+				<div class="item">
+					<a href="">*Github Repo</a>
+				</div>
+				<p class="item">Description: <br> This is my Bookmark App. <br> I used: <br>
+					CSS, HTML and jQuery inside Visual Studio Code. I also utilized APIs.</p>
+			</div>
+			<img src="" alt="">
+		</div>
+	</section>
+	<hr>
+	<section id="about">
+		<h2 class="item start">About Me</h2>
+
+		<div class="item">
+			Even though making games / apps / webpages is a challenging and yet rewarding pass time, I also enjoy tennis, pickleball, and kayaking.
+
+		</div>
+		<hr>
+
+		<div class="item" id="services">
+			<h2 class="item start">Services I Provide</h2>
+			<p>Full-Stack Development - Creating Apps - Web Design - Video Games</p>
+		</div>
+	</section>
+	<hr>
+	<section id="contact">
+		<div class="group">
+			<p>Git: <a href="https://github.com/vxp101">https://github.com/vxp101</a></p>
+			<hr>
+			<p>Email: <a href="mailto:vxp101@gmail.com">vxp101@gmail.com</a></p>
+			<hr>
+			<p>Linkedin: <a
+					href="https://www.linkedin.com/in/brendon-jennett-66617a1b2/">https://www.linkedin.com/in/brendon-jennett-66617a1b2/</a>
+			</p>
+		</div>
+		<h2 class="item start">
+			Send Me An Email
+		</h2>
+		<form action="https://formspree.io/vxp101@gmail.com" method="post">
+			<div>
+				<label for="full-name">Name: </label>
+				<input id="full-name" name="personName" type="text" placeholder="Required" required>
+			</div>
+			<div>
+				<label for="email">Email: </label>
+				<input id="email" name="personEmail" type="text" placeholder="Required" required>
+			</div>
+			<label for="form-message">Message: </label>
+			<textarea id="form-message" name="anything" placeholder="Not Required But Please Don't"></textarea>
+			<div>
+				<button type="submit" name="Submit">Submit</button>
+				<button type="reset" name="reset">Reset</button>
+			</div>
+
+		</form>
+	</section>
+
+</body>
+
+</html>
