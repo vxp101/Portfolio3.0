@@ -1,0 +1,1 @@
+This Portfolio tells you a little about me as well as my top 3 projects. If you are interested in contacting me, my info is on the bottom of the page. If you're busy you can also send me an email at the bottom of the page.
